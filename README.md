@@ -1,4 +1,4 @@
-# Arnest Selenium TestNG Maven Automation Framework Documentation
+
 
 ## System Requirements
 
@@ -103,19 +103,9 @@ screenshot_all_steps=no
 
 ![Email Report Example](Assets/Images/mailSample.jpg)
 
-## Future Enhancements
 
-- **Upload images and videos to cloud**
-- **Integrate with Jira & Dev Board**
-- **DevOps Integration**
 
-## Contact Us
 
-For any inquiries, feel free to contact us:
-
-Company Name: Arnest – | Innovative Solution
-Email: contactus@arnest.in
-Website: https://arnest.in/
 
 
 
