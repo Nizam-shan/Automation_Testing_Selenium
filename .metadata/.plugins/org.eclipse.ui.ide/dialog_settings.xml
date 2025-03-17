@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/nizams/Documents/AutomationFrameworkArnest/src"/>
+			<item value="/home/nizams/Documents/AutomationFrameworkArnest"/>
+		</list>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="188"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_WIDTH" value="774"/>
+			<item key="DIALOG_HEIGHT" value="649"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="608"/>
+		<item key="DIALOG_Y_ORIGIN" value="362"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

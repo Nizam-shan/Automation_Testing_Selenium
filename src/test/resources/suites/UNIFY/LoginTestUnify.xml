@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM  "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Tests UNIFY" parallel="tests">
+    <listeners>
+        <listener class-name="com.arnest.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Login Test Unify">
+        <parameter name="BROWSER" value="chrome"/>
+        <groups>
+            <run>
+                <include name="SMOKE"/>
+                <include name="REGRESSION"/>
+                <include name="SANITY"/>
+            </run>
+        </groups>
+        <classes>
+
+            <class name="com.arnest.project.unify.testcases.LoginUnifyTest">
+                <!--                <methods>-->
+                <!--                    <include name="UF_LoginFailWithWrongPassword"/>-->
+                <!--                    <include name="UF_LoginFailWithPasswordDoesNotExist"/>-->
+                <!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

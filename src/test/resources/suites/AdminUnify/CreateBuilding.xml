@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM  "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Tests UNIFY">
+    <listeners>
+        <listener class-name="com.arnest.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="Create Building Test Unify" parallel="methods">
+        <parameter name="BROWSER" value="chrome"/>
+          <groups>
+            <run>
+                <include name="SMOKE"/>
+                <include name="REGRESSION"/>
+                <include name="SANITY"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.arnest.project.unifyAdmin.testCases.CreateBuildingAdminUnifyTest"/>
+        </classes>
+
+    </test>
+
+
+</suite>
